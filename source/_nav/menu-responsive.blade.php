@@ -17,7 +17,7 @@
         <li class="pl-4">
             <a
                 title="{{ $page->siteName }} Contact"
-                href="/contact"
+                href="mailto:hello@vbergeron.dev"
                 class="block mt-0 mb-4 text-sm no-underline {{ $page->isActive('/contact') ? 'active text-blue-500' : 'text-gray-800 hover:text-blue-500' }}"
             >Contact</a>
         </li>
