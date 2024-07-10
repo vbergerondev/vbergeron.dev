@@ -1,24 +1,26 @@
 @extends('_layouts.main')
 
 @section('body')
-    <section class="text-center">
+    <section class="text-center mb-24">
         <div class="mb-4">
             <img src="/assets/img/vincent.png" alt="Vincent Bergeron" class="w-32 h-32 rounded-full border-2 border-gray-700 mx-auto object-cover shadow-lg">
         </div>
         <h1 class="text-4xl font-bold text-gray-800 mb-2">Vincent Bergeron</h1>
-        <p class="text-xl text-gray-600">26 years old // Writing code since 2013 // Seasoned Laravel developer with 7 years of experience / BSoftware developer and Team Lead at <a class="underline" href="https://tlmgo.com/" target="_blank">@tlmgo</a></p>
+        <p class="text-xl text-gray-600">26 years old // Writing code since 2013 // Seasoned Laravel developer with 7 years of experience / Software developer and Team Lead at <a class="underline" href="https://tlmgo.com/" target="_blank">@tlmgo</a></p>
     </section>
+
+    <h2 class="underline">Latest articles</h2>
     @foreach ($posts->take(3) as $post)
         <div class="w-full mb-6">
             <p class="text-gray-700 font-medium my-2">
                 {{ $post->getDate()->format('F j, Y') }}
             </p>
 
-            <h2 class="text-3xl mt-0">
+            <h3 class="text-2xl mt-0">
                 <a href="{{ $post->getUrl() }}" title="Read {{ $post->title }}" class="text-gray-900 font-extrabold">
                     {{ $post->title }}
                 </a>
-            </h2>
+            </h3>
 
             <p class="mt-0 mb-4">{!! $post->getExcerpt() !!}</p>
 
