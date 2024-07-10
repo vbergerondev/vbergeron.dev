@@ -2,42 +2,47 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
  <url>
   <loc>https://vbergeron.dev</loc>
-  <lastmod>2024-07-10T13:43:50+00:00</lastmod>
+  <lastmod>2024-07-10T14:56:17+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://vbergeron.dev/blog</loc>
-  <lastmod>2024-07-10T13:43:50+00:00</lastmod>
+  <lastmod>2024-07-10T14:56:17+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://vbergeron.dev/blog/welcome-to-vbergeron-dev</loc>
-  <lastmod>2024-07-10T13:43:50+00:00</lastmod>
+  <lastmod>2024-07-10T14:56:17+00:00</lastmod>
+  <changefreq>daily</changefreq>
+ </url>
+ <url>
+  <loc>https://vbergeron.dev/blog/how-i-test-laravel-middlewares-in-isolation</loc>
+  <lastmod>2024-07-10T14:56:17+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://vbergeron.dev/blog/feed.atom</loc>
-  <lastmod>2024-07-10T13:43:50+00:00</lastmod>
+  <lastmod>2024-07-10T14:56:17+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://vbergeron.dev/about</loc>
-  <lastmod>2024-07-10T13:43:50+00:00</lastmod>
+  <lastmod>2024-07-10T14:56:17+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://vbergeron.dev/contact</loc>
-  <lastmod>2024-07-10T13:43:50+00:00</lastmod>
+  <lastmod>2024-07-10T14:56:17+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://vbergeron.dev/blog/categories/configuration</loc>
-  <lastmod>2024-07-10T13:43:50+00:00</lastmod>
+  <lastmod>2024-07-10T14:56:17+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://vbergeron.dev/blog/categories/feature</loc>
-  <lastmod>2024-07-10T13:43:50+00:00</lastmod>
+  <lastmod>2024-07-10T14:56:17+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
 </urlset>

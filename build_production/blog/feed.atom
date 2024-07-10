@@ -3,12 +3,50 @@
     <title>$ ./vbergeron.dev</title>
     <link href="https://vbergeron.dev/blog" />
     <link type="application/atom+xml" rel="self" href="https://vbergeron.dev/blog/feed.atom" />
-    <updated>2024-07-10T13:43:50+00:00</updated>
+    <updated>2024-07-10T14:56:17+00:00</updated>
     <id>https://vbergeron.dev/blog/feed.atom</id>
     <author>
         <name>Vincent Bergeron</name>
     </author>
                 <entry>
+    <id>https://vbergeron.dev/blog/how-i-test-laravel-middlewares-in-isolation</id>
+    <link type="text/html" rel="alternate" href="https://vbergeron.dev/blog/how-i-test-laravel-middlewares-in-isolation" />
+    <title>How I test Laravel Middlewares in isolation</title>
+    <published>2024-07-10T00:00:00+00:00</published>
+    <updated>2024-07-10T00:00:00+00:00</updated>
+    <author>
+        <name>Vincent Bergeron</name>
+    </author>
+    <summary type="html">Not so long ago, a colleague of mine showed me a method to test middlewares that totally changed how I test them now.
+
+For a long time, I tested middlewares by creating a fake Laravel request, instantiating the middleware, and calling the `handle method......</summary>
+    <content type="html"><![CDATA[
+        <p>Not so long ago, a colleague of mine showed me a method to test middlewares that totally changed how I test them now.</p>
+
+<p>For a long time, I tested middlewares by creating a fake Laravel request, instantiating the middleware, and calling the `handle method with my fake $request object. This approach was working but caused some problems, such as handling an authenticated user or adding POST data. This required a deep understanding of Laravel requests, which is beneficial but added complexity to writing tests.</p>
+
+<p>Luckily for us, there's an easier way to do it. The method consists of registering a fake route and attaching a middleware to it in the test itself.</p>
+
+<pre><code class="language-php">&lt;?php
+
+#[Test]
+public function non_admin_gets_a_forbidden_response(): void
+{
+    $user = User::factory()-&gt;create(['is_admin' =&gt; false]);
+
+    Route::get('/foo', fn(): Response =&gt; response('OK'))
+        -&gt;middleware(AuthorizeAdmin::class);
+
+    $this-&gt;actingAs($user)
+        -&gt;get('/foo')
+        -&gt;assertForbidden();
+}
+</code></pre>
+
+<p>This way, we are still testing the middleware in isolation, and we get to use Laravel's built-in get method instead of calling the handle method on the middleware ourselves.</p>
+    ]]></content>
+</entry>
+            <entry>
     <id>https://vbergeron.dev/blog/welcome-to-vbergeron-dev</id>
     <link type="text/html" rel="alternate" href="https://vbergeron.dev/blog/welcome-to-vbergeron-dev" />
     <title>Welcome to vbergeron.dev!</title>
