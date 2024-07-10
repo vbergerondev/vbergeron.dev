@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
  <url>
-  <loc>https://jigsaw-blog-template.tighten.co</loc>
-  <lastmod>2024-07-10T12:08:13+00:00</lastmod>
+  <loc>https://vbergeron.dev</loc>
+  <lastmod>2024-07-10T13:43:50+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
-  <loc>https://jigsaw-blog-template.tighten.co/blog</loc>
-  <lastmod>2024-07-10T12:08:13+00:00</lastmod>
+  <loc>https://vbergeron.dev/blog</loc>
+  <lastmod>2024-07-10T13:43:50+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
-  <loc>https://jigsaw-blog-template.tighten.co/blog/welcome-to-vbergeron-dev</loc>
-  <lastmod>2024-07-10T12:08:13+00:00</lastmod>
+  <loc>https://vbergeron.dev/blog/welcome-to-vbergeron-dev</loc>
+  <lastmod>2024-07-10T13:43:50+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
-  <loc>https://jigsaw-blog-template.tighten.co/blog/feed.atom</loc>
-  <lastmod>2024-07-10T12:08:13+00:00</lastmod>
+  <loc>https://vbergeron.dev/blog/feed.atom</loc>
+  <lastmod>2024-07-10T13:43:50+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
-  <loc>https://jigsaw-blog-template.tighten.co/about</loc>
-  <lastmod>2024-07-10T12:08:13+00:00</lastmod>
+  <loc>https://vbergeron.dev/about</loc>
+  <lastmod>2024-07-10T13:43:50+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
-  <loc>https://jigsaw-blog-template.tighten.co/contact</loc>
-  <lastmod>2024-07-10T12:08:13+00:00</lastmod>
+  <loc>https://vbergeron.dev/contact</loc>
+  <lastmod>2024-07-10T13:43:50+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
-  <loc>https://jigsaw-blog-template.tighten.co/blog/categories/configuration</loc>
-  <lastmod>2024-07-10T12:08:13+00:00</lastmod>
+  <loc>https://vbergeron.dev/blog/categories/configuration</loc>
+  <lastmod>2024-07-10T13:43:50+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
-  <loc>https://jigsaw-blog-template.tighten.co/blog/categories/feature</loc>
-  <lastmod>2024-07-10T12:08:13+00:00</lastmod>
+  <loc>https://vbergeron.dev/blog/categories/feature</loc>
+  <lastmod>2024-07-10T13:43:50+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
 </urlset>

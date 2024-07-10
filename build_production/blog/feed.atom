@@ -1,16 +1,16 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>$ ./vbergeron.dev</title>
-    <link href="https://jigsaw-blog-template.tighten.co/blog" />
-    <link type="application/atom+xml" rel="self" href="https://jigsaw-blog-template.tighten.co/blog/feed.atom" />
-    <updated>2024-07-10T12:08:13+00:00</updated>
-    <id>https://jigsaw-blog-template.tighten.co/blog/feed.atom</id>
+    <link href="https://vbergeron.dev/blog" />
+    <link type="application/atom+xml" rel="self" href="https://vbergeron.dev/blog/feed.atom" />
+    <updated>2024-07-10T13:43:50+00:00</updated>
+    <id>https://vbergeron.dev/blog/feed.atom</id>
     <author>
         <name>Vincent Bergeron</name>
     </author>
                 <entry>
-    <id>https://jigsaw-blog-template.tighten.co/blog/welcome-to-vbergeron-dev</id>
-    <link type="text/html" rel="alternate" href="https://jigsaw-blog-template.tighten.co/blog/welcome-to-vbergeron-dev" />
+    <id>https://vbergeron.dev/blog/welcome-to-vbergeron-dev</id>
+    <link type="text/html" rel="alternate" href="https://vbergeron.dev/blog/welcome-to-vbergeron-dev" />
     <title>Welcome to vbergeron.dev!</title>
     <published>2024-07-09T00:00:00+00:00</published>
     <updated>2024-07-09T00:00:00+00:00</updated>
