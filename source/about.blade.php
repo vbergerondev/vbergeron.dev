@@ -17,7 +17,7 @@ description: A little bit about the site
 
     <p class="mb-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum officia dolorem accusantium veniam quae, possimus, temporibus explicabo magni voluptas. fugit natus deserunt atque veniam!</p>
 
-    <h2>Skills</h2>
+    <h3 class="mt-20">Skills</h3>
     @foreach($page->skills as $skill)
         <code class="lowercase">{{$skill}}</code>
     @endforeach
