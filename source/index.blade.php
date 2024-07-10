@@ -6,7 +6,7 @@
             <img src="/assets/img/vincent.png" alt="Vincent Bergeron" class="w-32 h-32 rounded-full border-2 border-gray-700 mx-auto object-cover shadow-lg">
         </div>
         <h1 class="text-4xl font-bold text-gray-800 mb-2">Vincent Bergeron</h1>
-        <p class="text-xl text-gray-600">26 years old // Writing code since 2013 // Seasoned Laravel developer with 7 years of experience / Software developer and Team Lead at <a class="underline" href="https://tlmgo.com/" target="_blank">@tlmgo</a></p>
+        <p class="text-xl text-gray-600">26 years old // Writing code since 2013 // Seasoned Laravel developer with 7 years of experience // Software developer and Team Lead at <a class="underline" href="https://tlmgo.com/" target="_blank">@tlmgo</a></p>
     </section>
 
     <h2 class="underline">Latest articles</h2>
