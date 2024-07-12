@@ -3,12 +3,54 @@
     <title>$ ./vbergeron.dev</title>
     <link href="https://vbergeron.dev/blog" />
     <link type="application/atom+xml" rel="self" href="https://vbergeron.dev/blog/feed.atom" />
-    <updated>2024-07-11T12:58:03+00:00</updated>
+    <updated>2024-07-12T19:56:01+00:00</updated>
     <id>https://vbergeron.dev/blog/feed.atom</id>
     <author>
         <name>Vincent Bergeron</name>
     </author>
                 <entry>
+    <id>https://vbergeron.dev/blog/simplify-post-put-patch-and-delete-actions-in-laravel-using-blade-components</id>
+    <link type="text/html" rel="alternate" href="https://vbergeron.dev/blog/simplify-post-put-patch-and-delete-actions-in-laravel-using-blade-components" />
+    <title>Simplify POST, PUT, PATCH and DELETE Actions in Laravel using Blade components</title>
+    <published>2024-07-12T00:00:00+00:00</published>
+    <updated>2024-07-12T00:00:00+00:00</updated>
+    <author>
+        <name>Vincent Bergeron</name>
+    </author>
+    <summary type="html">When we create a link on a page to redirect the user to another page, it uses a GET request. However, if you want a user to click on a link that executes a DELETE request (e.g., &lt;code&gt;DELETE /posts/1&lt;/code&gt;), you will need a form to handle that for you.......</summary>
+    <content type="html"><![CDATA[
+        <p>When we create a link on a page to redirect the user to another page, it uses a GET request. However, if you want a user to click on a link that executes a DELETE request (e.g., <code>DELETE /posts/1</code>), you will need a form to handle that for you. This is because if your route definition uses the <code>DELETE</code> verb, a user cannot visit that page from the URL as they would when visiting a normal page.</p>
+
+<p>If you are building a backend application, chances are you have already created forms like this before:</p>
+
+<pre><code class="language-html">&lt;form action="/posts/1" method="POST"&gt;
+    @csrf
+    @method('DELETE')
+    &lt;button type="submit"&gt;Delete post&lt;/button&gt;
+&lt;/form&gt;
+</code></pre>
+
+<p>And that’s totally fine. But over time, I found that it was taking up too much space in my HTML code, and a better idea came to mind:</p>
+
+<pre><code class="language-html">&lt;x-action-button method="DELETE" action="/posts/1"&gt;
+    Delete post
+&lt;/x-action-button&gt;
+
+&lt;!-- action-button.blade.php --&gt;
+@props(['action', 'method' =&gt; 'POST'])
+&lt;form action="{{ $action }}" method="POST"&gt;
+    @csrf
+    @method($method)
+    &lt;button type="submit"&gt;{{ $slot }}&lt;/button&gt;
+&lt;/form&gt;
+</code></pre>
+
+<p>Behind the scenes, the Blade component generates the same code as above, but now we can achieve the same result using fewer lines of code.</p>
+
+<p>It's not impressive, I admit. I’m sure many of you already have such a component in your projects. However, this sparked an idea for further improvement. What if we could, if desired, ask the user to confirm their password in a modal before the form is submitted? How would we do that using our favorite tools (Livewire, Alpine.js, Blade components) with a very minimal amount of JavaScript code? Well, I had to create this recently and will discuss it further in the next post 🙂</p>
+    ]]></content>
+</entry>
+            <entry>
     <id>https://vbergeron.dev/blog/ways-to-check-if-the-user-is-logged-in-or-not</id>
     <link type="text/html" rel="alternate" href="https://vbergeron.dev/blog/ways-to-check-if-the-user-is-logged-in-or-not" />
     <title>Ways to Check if the User is Logged In or Not</title>
