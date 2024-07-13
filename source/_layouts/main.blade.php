@@ -61,7 +61,7 @@
                 <li>
                     Built with <a href="http://jigsaw.tighten.co" title="Jigsaw by Tighten">Jigsaw</a>
                     and <a href="https://tailwindcss.com" title="Tailwind CSS, a utility-first CSS framework">Tailwind CSS</a>
-                    and deployed on <a href="https://pages.github.com/" title="Github Pages">Github Pages</a>
+                    and deployed on <a href="https://www.netlify.com/" title="Netlify">Netlify</a>
                 </li>
             </ul>
         </footer>
