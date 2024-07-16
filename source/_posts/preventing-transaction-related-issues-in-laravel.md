@@ -14,15 +14,13 @@ Consider the following example code:
 ```php
 <?php
 
-Route::get('/transaction', function() {
-    DB::transaction(function () {
-        $user = User::factory()->create();
-        dump($user->exists) // true
-        dump($user->id) // displays the id as if the record was actually persisted in the DB
-        
-        // Imagine some HTTP request to an external webapp which shares the same database
-        DB::table('users')->where('id', $user->id)->count() // 0
-    });
+DB::transaction(function () {
+    $user = User::factory()->create();
+    dump($user->exists) // true
+    dump($user->id) // displays the id as if the record was actually persisted in the DB
+    
+    // Imagine some HTTP request to an external webapp which shares the same database
+    DB::table('users')->where('id', $user->id)->count() // 0
 });
 ```
 
