@@ -7,7 +7,7 @@ description: Lessons learned from troubleshooting database transactions in Larav
 author: Vincent Bergeron
 ---
 
-This post serves as a personal reminder. Today, I spent several hours troubleshooting an issue involving database transactions. Thankfully, with the assistance of a teammate, the problem is now resolved.
+Today, I spent a good amount of hours troubleshooting an issue involving database transactions. Thankfully, with the assistance of a teammate, the problem is now resolved.
 
 Consider the following example code:
 
