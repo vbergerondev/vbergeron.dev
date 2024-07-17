@@ -28,4 +28,4 @@ In this scenario, we initiate a database transaction in which a model is created
 
 The underlying reason is that within a transaction, the objects are not committed to the database until the transaction is completed. Therefore, although the user ID may be correctly generated and displayed, the record itself is not yet persisted in the database.
 
-While this concept is fundamental and I am well-acquainted with how database transactions operate, I nonetheless encountered this issue. Documenting this experience will hopefully prevent me from making the same mistake in the future.
+While this concept is fundamental and I am well-acquainted with how database transactions operate, I nonetheless encountered this issue. Documenting this experience will hopefully prevent me from making the same mistake in the future and maybe help others too.
