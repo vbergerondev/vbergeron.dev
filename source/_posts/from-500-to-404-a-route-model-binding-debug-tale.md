@@ -17,7 +17,7 @@ So, all we had to do was adjust the test, changing the route parameter to match 
 
 To our surprise, the test failed.
 
-Instead of getting a `404` for a non-existent user (like before), the controller threw a `500` error. This was unexpected because Laravel is supposed to return a `404` if a model can’t be found using `Route Model Binding`.
+Instead of getting a `404` for a non-existent user (like before), the controller threw a `500` error. This was unexpected because Laravel is supposed to return a `404` if a model can’t be found.
 After a bit of head-scratching and some investigation, we noticed that the controller was actually receiving an empty User model, with its `attributes` array completely empty.
 
 After spending more time than we’d like to admit tracking down the issue, we finally found the culprit: the `setUp` method in the test class. 
