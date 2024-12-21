@@ -1,12 +1,11 @@
 @extends('_layouts.main')
 
 @section('body')
-    <section class="text-center mb-24">
-        <div class="mb-4">
-            <img src="/assets/img/vincent.png" alt="Vincent Bergeron" class="w-32 h-32 rounded-full border-2 border-gray-700 mx-auto object-cover shadow-lg">
-        </div>
-        <h1 class="text-4xl font-bold text-gray-800 mb-2">Vincent Bergeron</h1>
-        <p class="text-xl text-gray-600">Software Developer <br> Specializing in PHP, Laravel, Livewire & Vue.js // Currently working <a target="_blank" href="https://tlmgo.com">@tlm</a></p>
+    <section class="text-center mb-20">
+        <p class="text-2xl text-gray-600">
+            <span class="font-bold">Vincent Bergeron - Software Developer</span>
+            <br>
+            Specializing in PHP, Laravel, Livewire & Vue.js // Currently working <a target="_blank" href="https://tlmgo.com">@tlm</a></p>
     </section>
 
     <h2 class="underline">Latest articles</h2>
