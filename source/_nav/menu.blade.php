@@ -4,6 +4,12 @@
         Blog
     </a>
 
+    <a title="{{ $page->siteName }} Tidbits" href="/tidbits"
+        class="relative ml-6 text-gray-700 hover:text-blue-600 {{ $page->isActive('/tidbits') ? 'active text-blue-600' : '' }}">
+        Tidbits
+        <span class="absolute shadow-xs top-[-12px] left-[45px] items-center rounded-full bg-blue-50 px-2 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10">new</span>
+    </a>
+
     <a title="{{ $page->siteName }} About" href="/about"
         class="ml-6 text-gray-700 hover:text-blue-600 {{ $page->isActive('/about') ? 'active text-blue-600' : '' }}">
         About
