@@ -13,7 +13,7 @@
                 title="{{ $page->siteName }} Tidbits"
                 href="/tidbits"
                 class="block mt-0 mb-4 text-sm no-underline {{ $page->isActive('/Tidbits') ? 'active text-blue-500' : 'text-gray-800 hover:text-blue-500' }}"
-            >Tidbits <span class="text-xs">(new)</span></a>
+            >Tidbits</a>
         </li>
         <li class="pl-4">
             <a
