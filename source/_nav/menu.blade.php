@@ -14,7 +14,7 @@
         About
     </a>
 
-    <a title="{{ $page->siteName }} Contact" href="mailto:hello@vbergeron.dev"
+    <a title="{{ $page->siteName }} Contact" href="mailto:vincent@bergeron.com"
         class="ml-6 text-gray-700 hover:text-blue-600 {{ $page->isActive('/contact') ? 'active text-blue-600' : '' }}">
         Contact
     </a>
