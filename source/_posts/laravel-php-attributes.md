@@ -14,7 +14,7 @@ Lately I've been quite excited by **Laravel's PHP attributes**.
 >
 > Source: [https://www.php.net/manual/en/language.attributes.overview.php](https://www.php.net/manual/en/language.attributes.overview.php)
 
-Laravel offers some attributes out-of-the-box and I found a [very good article](https://nabilhassen.com/complete-guide-to-laravel-and-livewire-php-attributes-23-attributes) on X describing all of them.
+Laravel offers some attributes out-of-the-box and I found a [very good article](https://nabilhassen.com/complete-guide-to-laravel-and-livewire-php-attributes-23-attributes) on X that describes them all.
 
 My favourite one (and the one I use the most) is `#[Config(...)]`
 
