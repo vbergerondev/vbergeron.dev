@@ -30,7 +30,7 @@
             <div class="container flex items-center max-w-8xl mx-auto px-4 lg:px-8">
                 <div class="flex items-center">
                     <a href="/" title="{{ $page->siteName }} home" class="inline-flex items-center">
-                        <img class="h-8 md:h-14 rounded-full border border-gray-700 mr-3" src="/assets/img/vincent.png" alt="{{ $page->siteName }} logo" />
+                        <img class="h-8 md:h-14 rounded-full shadow  mr-3" src="/assets/img/vincent.png" alt="{{ $page->siteName }} logo" />
 
                         <h1 class="text-lg md:text-2xl text-blue-800 font-semibold hover:text-blue-600 my-0">{{ $page->siteName }}</h1>
                     </a>
