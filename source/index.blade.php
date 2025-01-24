@@ -5,7 +5,7 @@
         <p class="text-2xl text-gray-600">
             <span class="font-bold">Vincent Bergeron - Software Developer</span>
             <br>
-            Specializing in PHP, Laravel, Livewire & Vue.js // Currently working <a target="_blank" href="https://tlmgo.com">@tlm</a></p>
+            Specializing in PHP, Laravel, Livewire & Vue.js</p>
     </section>
 
     <h2 class="underline">Latest articles</h2>

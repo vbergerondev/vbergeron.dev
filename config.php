@@ -18,11 +18,6 @@ return [
             'sort' => '-date',
             'path' => 'blog/{filename}',
         ],
-        'tidbits' => [
-            'author' => 'Vincent Bergeron',
-            'sort' => '-date',
-            'path' => 'tidbits/{filename}',
-        ],
         'categories' => [
             'path' => '/blog/categories/{filename}',
             'posts' => function ($page, $allPosts) {
