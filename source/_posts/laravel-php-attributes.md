@@ -3,7 +3,6 @@ extends: _layouts.post
 section: content
 title: "Laravel's PHP attributes"
 date: 2025-01-02
-author: Vincent Bergeron
 description: "Laravel's PHP attributes"
 ---
 Happy New Year!

@@ -4,7 +4,6 @@ section: content
 title: "From 500 to 404: A Route Model Binding Debug Tale"
 date: 2024-08-29
 description: "From 500 to 404: A Route Model Binding Debug Tale"
-author: Vincent Bergeron
 ---
 
 Today, I had an interesting pairing session with a fellow developer at work. 

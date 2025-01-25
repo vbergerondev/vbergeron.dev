@@ -5,30 +5,20 @@ use Illuminate\Support\Str;
 return [
     'baseUrl' => '',
     'production' => false,
-    'siteName' => '$ ./vbergeron.dev',
-    'siteDescription' => 'Generate an elegant blog with Jigsaw',
+    'siteName' => './vbergeron.dev',
+    'siteDescription' => 'Vincent is a Laravel/PHP Developer from Canada.',
     'siteAuthor' => 'Vincent Bergeron',
 
     'skills' => ['Laravel', 'PHP', 'Livewire', 'Alpine.js', 'Ruby on Rails', 'Vue.js', 'Docker', 'Git', 'SASS', 'TailwindCSS', 'HTML', 'CSS', 'Bootstrap', 'PHPUnit', 'Pest', 'jQuery', 'Linux', 'ci/cd', 'MySQL', 'Scrapy', 'DigitalOcean'],
 
-    // collections
     'collections' => [
         'posts' => [
-            'author' => 'Author Name', // Default author, if not provided in a post
+            'author' => 'Vincent Bergeron',
             'sort' => '-date',
             'path' => 'blog/{filename}',
         ],
-        'categories' => [
-            'path' => '/blog/categories/{filename}',
-            'posts' => function ($page, $allPosts) {
-                return $allPosts->filter(function ($post) use ($page) {
-                    return $post->categories ? in_array($page->getFilename(), $post->categories, true) : false;
-                });
-            },
-        ],
     ],
 
-    // helpers
     'getDate' => function ($page) {
         return Datetime::createFromFormat('U', $page->date);
     },

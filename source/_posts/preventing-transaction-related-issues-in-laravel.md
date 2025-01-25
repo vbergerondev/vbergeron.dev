@@ -4,7 +4,6 @@ section: content
 title: Preventing Transaction-Related Issues in Laravel
 date: 2024-07-16
 description: Lessons learned from troubleshooting database transactions in Laravel.
-author: Vincent Bergeron
 ---
 
 Today, I spent a good amount of hours troubleshooting an issue involving database transactions. Thankfully, with the assistance of a teammate, the problem is now resolved.

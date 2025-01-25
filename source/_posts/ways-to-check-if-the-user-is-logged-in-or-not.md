@@ -4,7 +4,6 @@ section: content
 title: Ways to Check if the User is Logged In or Not
 date: 2024-07-11
 description: Ways to Check if the User is Logged In or Not
-author: Vincent Bergeron
 ---
 In Laravel, there are many ways to check whether a user is logged in. In this post, I will demonstrate my favorite methods for performing these checks. A lot of people use `auth()->user()`, but Laravel offers us other methods to avoid using negation.
 

@@ -4,7 +4,6 @@ section: content
 title: How I test Laravel Middlewares in isolation
 date: 2024-07-10
 description: How I test Laravel Middlewares in isolation
-author: Vincent Bergeron
 ---
 
 Not so long ago, a colleague of mine showed me a method to test middlewares that totally changed how I test them now.

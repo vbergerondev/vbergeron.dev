@@ -4,7 +4,6 @@ section: content
 title: Welcome to vbergeron.dev!
 date: 2024-07-09
 description: An introduction to vbergeron.dev
-author: Vincent Bergeron
 ---
 
 Welcome to my personal website. Creating a personal website has been on my mind for ages, but I always procrastinated.

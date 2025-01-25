@@ -4,7 +4,6 @@ section: content
 title: "How a Post Helped Me Identify and Fix Multiple SQL Queries on a Single Table in the Same HTTP Request"
 date: 2025-01-13
 description: "A simple post led me to uncover and resolve an issue where multiple SQL queries were being made on the same table during a single HTTP request. Here's how I fixed it."
-author: Vincent Bergeron
 ---
 In very early January, I was casually hanging out on X when I came across [a very insightful post](https://x.com/ste_bau/status/1875175531282346400).
 

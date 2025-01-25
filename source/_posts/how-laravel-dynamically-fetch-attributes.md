@@ -4,7 +4,6 @@ section: content
 title: "Understand Laravel Magic: How Models Dynamically Retrieves Attributes"
 date: 2025-01-24
 description: "Understand Laravel Magic: How Models Dynamically Retrieves Attributes"
-author: Vincent Bergeron
 ---
 
 I've been working with Laravel for almost eight years. For a long time, I didn’t fully understand what happens under the hood when accessing properties on a model instance and I'm sure that's the case for other Laravel developers.

@@ -5,7 +5,6 @@ title: Simplify POST, PUT, PATCH and DELETE Actions in Laravel using Blade compo
 date: 2024-07-12
 description: Simplify POST, PUT, PATCH and DELETE Actions in Laravel using Blade components
 excerpt: When we create a link on a page to redirect the user to another page, it uses a GET request. However, if you want a user to click on a link that executes a DELETE request...
-author: Vincent Bergeron
 ---
 
 When we create a link on a page to redirect the user to another page, it uses a GET request. However, if you want a user to click on a link that executes a DELETE request (e.g., `DELETE /posts/1`), you will need a form to handle that for you. This is because if your route definition uses the `DELETE` verb, a user cannot visit that page from the URL as they would when visiting a normal page.
