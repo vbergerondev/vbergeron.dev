@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'baseUrl' => 'https://vbergeron.dev',
+    'baseUrl' => 'https://vbergerondev.netlify.app',
     'production' => true,
 ];
